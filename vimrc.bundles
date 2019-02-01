@@ -27,6 +27,9 @@ endif
 
 call plug#begin('~/.vim/bundle')
 
+" Supertab 
+Plug 'ervandew/supertab'
+
 " 移动光标到插件名上, 使用'#'快速跳转到每个插件的配置处
 
 " syntastic
@@ -415,6 +418,11 @@ endif
 " }}}
 
 " ################### 自动补全 ###################
+
+" Supertab {{{
+    let g:SuperTabDefaultCompletionType = "<c-n>"
+
+" }}}
 
 " YouCompleteMe {{{
     "youcompleteme  默认tab  s-tab 和自动补全冲突
