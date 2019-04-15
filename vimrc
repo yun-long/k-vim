@@ -27,6 +27,9 @@
 " automatically open NERDTree when start vim
 au VimEnter * NERDTree 
 
+" change the directory automatically when editing a file
+set autochdir
+
 "==========================================
 " Initial Plugin 加载插件
 "==========================================
